@@ -1,0 +1,85 @@
+baseURL = "https://simonyen.github.io"
+languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
+title = "潇湘阁"
+paginate = 6
+theme = "hulga"
+
+[params]
+  # show in HTML meta tag
+  author = "深川"
+  keywords = "Golang, go, rust, python, linux, japanese, 日本, hugo"
+  description = "Simon Yen's blog"
+
+  # change bulma's primary color
+  primaryColor = "#1793d0"
+
+  # subtitle on homepage
+  subtitle = "修身"
+
+  # copyright text on footer
+  copyright = "Copyright © 2023 Simon Yen. All rights reserved."
+
+  # enable katex rendering on every post page, default false
+  math = false
+
+  # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower), default false
+  postcss = false
+
+  # enable showing content summary below post title in home page, default false
+  showSummary = false
+
+  # set paginate on taxonomy term page (tags or categories), default 10
+  termPaginate = 3
+
+  # enable toc on every post page, default false
+  toc = true
+
+  # enable TOC auto collapse, default false
+  autoCollapseToc = true
+
+  # enable prefers-color-scheme:dark, default false
+  darkMedia = true
+
+  # enable hero section's is-bold effect, default false
+  heroBold = false
+
+  # enable hero section that looks like steam deck's home page, default false
+  heroSteamDeck = false
+
+  # enable PWA, prepare your icons and DON'T forget to modify manifest.json, default false
+  pwa = true
+
+  # disable jsdelivr cdn, default false
+  noCDN = false
+
+# to enable different hightlight themes in light/dark mode 
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "类别"
+    url = "/categories/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
