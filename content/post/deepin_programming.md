@@ -113,3 +113,47 @@ git-fetch-with-cli = true
 ```
 
 ****
+
+# 数据库mariadb安装及其配置
+
+为什么选择mariadb而不是mysql呢？一是我更倾向于开源，二是mysql安装后配置较为麻烦。
+
+## 安装
+
+直接包管理
+
+`sudo apt install mariadb-server`
+
+## 配置
+
+相当方便，直接运行
+
+`sudo mysql_secure_installation`，配置root密码之类的。
+
+****
+
+# 终端美化starship
+
+## 配置之前的默认终端
+
+![默认终端](/终端/bash.png)
+
+## 安装
+
+使用rust源码编译
+
+`cargo install starship --locked`
+
+## 配置
+
+在`~/.bashrc`中加入
+
+```bash
+eval "$(starship init bash)"
+```
+
+## 安装后的效果
+
+![starship1](/终端/starship1.png)
+
+![starship2](/终端/starship2.png)

@@ -12,7 +12,7 @@ theme = "hulga"
   description = "Simon Yen's blog"
 
   # change bulma's primary color
-  primaryColor = "#1793d0"
+  primaryColor = "#251e3e"
 
   # subtitle on homepage
   subtitle = "修身"
