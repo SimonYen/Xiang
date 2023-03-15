@@ -1,9 +1,9 @@
 ---
-title: "C++动静态库相关"
+title: "CPP之动静态库相关"
 date: 2023-03-15T14:53:39+08:00
 math: false
 tags: ['gcc']
-categories: ['C++']
+categories: ['CPP']
 ---
 
 # 静态库
