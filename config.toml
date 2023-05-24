@@ -14,7 +14,7 @@ theme = "hulga"
 
 
   # subtitle on homepage
-  subtitle = "修身"
+  subtitle = "毎日頑張る"
 
   # copyright text on footer
   copyright = "Copyright © 2023 Simon Yen. All rights reserved."
@@ -23,10 +23,10 @@ theme = "hulga"
   math = false
 
   # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower), default false
-  postcss = false
+  postcss = true
 
   # enable showing content summary below post title in home page, default false
-  showSummary = false
+  showSummary = true
 
   # set paginate on taxonomy term page (tags or categories), default 10
   termPaginate = 3
