@@ -5,8 +5,6 @@ title = "潇湘阁"
 paginate = 6
 theme = "hulga"
 
-[params.meta]
-  favicon = true
 
 [params]
   # show in HTML meta tag
