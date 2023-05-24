@@ -5,13 +5,15 @@ title = "潇湘阁"
 paginate = 6
 theme = "hulga"
 
+[params.meta]
+  favicon = true
+
 [params]
   # show in HTML meta tag
   author = "深川"
   keywords = "Golang, go, rust, python, linux, japanese, 日本, hugo"
   description = "Simon Yen's blog"
 
-  favicon = true
 
   # subtitle on homepage
   subtitle = "修身"
