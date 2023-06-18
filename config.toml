@@ -12,10 +12,6 @@ theme = "hulga"
   keywords = "Golang, go, rust, python, linux, japanese, 日本, hugo"
   description = "Simon Yen's blog"
 
-
-  # subtitle on homepage
-  subtitle = "毎日頑張る"
-
   # copyright text on footer
   copyright = "Copyright © 2023 Simon Yen. All rights reserved."
 
